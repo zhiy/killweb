@@ -1,0 +1,114 @@
+html {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+body,span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, dialog, figure, footer, header,
+hgroup, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, dialog, figure, footer, header,
+hgroup, nav, section {
+	display:block;
+}
+
+body {
+	line-height: 1.5;
+	background: white;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+	float:none !important;
+}
+table, th, td {
+	vertical-align: middle;
+}
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; }
+blockquote, q { quotes: "" ""; }
+
+a img { border: none; }
+
+#components {
+    float:left;
+    width: 270px;
+} 
+
+#pageform {
+    float:left;
+    width: 500px;
+    background: #CCC; border: 1px solid black; 
+} 
+
+#result {
+    float:left;
+    width: 300px;
+    background: #BBB; border: 1px solid green;
+    margin: 0 0 0 80px;
+}
+
+.component {
+    color: white;
+    display: block;
+    font-family: Arial;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    width:180px;
+    margin: 8px;
+    cursor:move;
+}
+.inline-css {
+    background: none repeat scroll 0 0 #004400;
+}
+.external-css {
+    background: none repeat scroll 0 0 #008800;
+}
+.external-js {
+    background: none repeat scroll 0 0 #930000;
+}
+.inline-js {
+    background: none repeat scroll 0 0 #CC0000;
+}
+.png {
+    background: none repeat scroll 0 0 #000080;
+}
+.html-elem {
+    background: none repeat scroll 0 0 #660066;
+}
+.iframe-elem {
+    background: none repeat scroll 0 0 #060066;
+}
+#head-area,#body-area {
+    border: 1px solid #EEE; 
+    background: #EEE;
+    padding: 12px 0 12px 0; 
+    width: 400px;
+    margin: 0 0 0 4px;
+}
+/*:focus { outline: 0; }*/
+
+
+
